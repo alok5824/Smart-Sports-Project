@@ -1,0 +1,48 @@
+.sport-bubble {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 56px;
+  height: 56px;
+  background: rgb(44, 122, 123);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  z-index: 1000;
+}
+
+.sport-panel {
+  position: fixed;
+  bottom: 90px;
+  right: 24px;
+  width: 320px;
+  padding: 16px;
+  border-radius: 16px;
+  z-index: 1000;
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-icon {
+  cursor: pointer;
+}
+
+.submit-btn {
+  margin-top: 12px !important;
+  background:rgb(44, 122, 123) !important;
+}
+
+.result-box {
+  margin-top: 16px;
+  background: #f5f5f5;
+  padding: 12px;
+  border-radius: 12px;
+}
